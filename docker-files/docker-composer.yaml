@@ -25,6 +25,8 @@ services:
   db:
     image: mariadb:latest
     container_name: db
+    volumes:
+      - ../app/db:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pw
       MYSQL_DATABASE: projeto-db
