@@ -1,0 +1,41 @@
+
+CONTAINER
+
+    Executar um container já criado:
+
+        docker container exec -it php-apache bash
+
+BRANCHS
+
+    Criar uma feature para desenvolver um novo código com o seguinte padrão:
+
+        novafuncionalidade-feature
+
+    Quando for mergear, fazê-lo na develop:
+
+        merge …. (ver comando)
+
+PROCEDIMENTO QUANDO PROGRAMAR:
+
+Fazer os códigos que tenho que fazer depois: VERIFICAR SE É ISSSO MESMO
+
+    Obs.: Estando com a develop ok
+
+    git flow feature start name-feature
+
+    git add arquivo
+    git commit -m “feat: adicionando funcionalidade xyz”
+     git push --set-upstream origin feature/name-feature
+
+    git checkout develop
+    git merge name-feature
+    git push
+
+    git flow feature finish name-feature
+
+
+SITES IMPORTANTES:
+
+Baixar modelos de bootstraps:
+
+https://getbootstrap.com/
