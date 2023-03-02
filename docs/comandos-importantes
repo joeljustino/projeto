@@ -33,13 +33,18 @@ Fazer os códigos que tenho que fazer depois: VERIFICAR SE É ISSSO MESMO
 
     git flow feature finish name-feature
 
-
-SITES IMPORTANTES:
-
-Baixar modelos de bootstraps:
-
-https://getbootstrap.com/
-
 Para baixar arquivos sem apagar o meu primeiro faço uma cópia no dedo dos meus arquivos, vejo as diferenças utilizando o fetch e depois baixo e mergeo utilizando o pull;
 Implementar o .gitignore nos arquivos de banco de dados que estão dando pau
 Ver como se faz uma api 
+
+SITES IMPORTANTES:
+
+    Baixar modelos de bootstraps: https://getbootstrap.com/
+
+CSS:
+    Usar porcentagem ao invés de px para o site ficar responsivo
+    @media {500px} - A parti dessa resolução eu escondo certos itens do site para não estourar a tela
+    index.html
+        -header.php
+        -corpo.php
+        -footer.php
