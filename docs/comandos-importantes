@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/docs-feature
 CONTAINER
 
     Executar um container já criado:
@@ -31,6 +34,10 @@ Fazer os códigos que tenho que fazer depois: VERIFICAR SE É ISSSO MESMO
     git merge name-feature
     git push
 
+<<<<<<< HEAD
     git flow feature finish name-feature
 
 
+=======
+    git flow feature finish name-feature
+>>>>>>> feature/docs-feature
