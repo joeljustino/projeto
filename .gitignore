@@ -1,0 +1,10 @@
+#Ignore os arquivos de banco de dados que são modificados pelo próprio sistema
+/app/db/mysql/innodb_index_stats.ibd
+/app/db/mysql/innodb_table_stats.ibd
+/app/db/projeto@002ddb/tabela_teste.ibd
+/app/db/aria_log_control
+/app/db/aria_log.00000001
+/app/db/ddl_recovery.log
+/app/db/ib_buffer_pool
+/app/db/ib_logfile0
+/app/db/ibdata1
