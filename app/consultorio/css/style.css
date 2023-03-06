@@ -22,6 +22,8 @@ body{
 #home .large-header {
 	background-image: url("../images/pattern.png"),url('../images/img-3.png');
 	background-position: center;
+	/*background-repeat: no-repeat;
+	background-attachment: fixed;*/
 }
 
 .home-main {
@@ -35,7 +37,7 @@ body{
 	transform: translate3d(-50%,-50%,0);
 }
 
-#countdown_dashboard {
+#buttons_dashboard {
 	display: block;
 	margin: 0px auto;
 	overflow: hidden
