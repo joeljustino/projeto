@@ -8,12 +8,9 @@
 	padding: 0;
 }
 
-
 body{
 	overflow-x: hidden;
 	overflow-y: auto;
-    
-	
 }
 
 /* -----------------------------------------------------------------------
@@ -22,6 +19,7 @@ body{
 .logo{
     padding-bottom: 5%;
 }
+
 .logo p{
     color: #ffffff;
     padding-top: 20px;
