@@ -10,30 +10,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <!-- Ficha de Anamnese -->
-                    <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
-                        <div class="dash days_dash">
-                            <button type="button" class="btn btn-primary btn-lg" style="height:100px !important;">Ficha Anamnese</button>
-                        </div>
-                    </div>
-                    <!-- Agenda do Dentista -->
-                    <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
-                        <div class="dash hours_dash">
-                            <button type="button" class="btn btn-primary btn-lg">Agenda do Dentista</button>
-                        </div>
-                    </div>
-                    <!-- Marcar Consulta -->
-                    <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
-                        <div class="dash minutes_dash">
-                            <button type="button" class="btn btn-primary btn-lg">Marcar Consulta</button>
-                        </div>
-                    </div>
-                    <!-- Outro -->
-                    <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
-                        <div class="dash seconds_dash">
-                            <button type="button" class="btn btn-primary btn-lg">Outro</button>
-                        </div>
-                    </div>
+
+                    <!-- Ficha de Anamnese -->                       
+                    <div id="btn-anamnese" class="btn-home" >Ficha Anamnese</div>
+                    
+                    <!-- Agenda do Dentista -->                    
+                    <div id="btn-agenda" class="btn-home" >Agenda</div>       
+
+                    <!-- Marcar Consulta -->          
+                    <div id="btn-consulta" class="btn-home" >Consulta</div>
+
+                    <!-- Outro -->                   
+                    <div id="btn-outro" class="btn-home" >Outro</div>
+       
                 </div> <!-- END ROW -->
             </div> <!-- END COUNTDOWN -->
         </div>    <!-- END LARGE-HEADER -->
