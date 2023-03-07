@@ -4,24 +4,24 @@
             <canvas id="demo-canvas"></canvas>
             <div id="buttons_dashboard" class="home-main container">
                 <div class="row">
-                    <div class="logo">
-                        <img src="images/logo-2.png" alt="logo">
-                        <p>Universidade Virtual do Estado de São Paulo</p>
+                    <div class="logo">                        
+                        <p>Projeto Dentista</p>
+                        <p2>Universidade Virtual do Estado de São Paulo</p2>
                     </div>
                 </div>
                 <div class="row">
 
                     <!-- Ficha de Anamnese -->                       
-                    <div id="btn-anamnese" class="btn-home" >Ficha Anamnese</div>
+                    <div id="btn-anamnese" class="btn-home"><p>Ficha Anamnese</p></div>
                     
                     <!-- Agenda do Dentista -->                    
-                    <div id="btn-agenda" class="btn-home" >Agenda</div>       
+                    <div id="btn-agenda" class="btn-home" ><p>Agenda</p></div>       
 
                     <!-- Marcar Consulta -->          
-                    <div id="btn-consulta" class="btn-home" >Consulta</div>
+                    <div id="btn-consulta" class="btn-home"><p>Consulta</p></div>
 
                     <!-- Outro -->                   
-                    <div id="btn-outro" class="btn-home" >Outro</div>
+                    <div id="btn-outro" class="btn-home"><p>Outro</p></div>
        
                 </div> <!-- END ROW -->
             </div> <!-- END COUNTDOWN -->
