@@ -5,13 +5,16 @@
     </head>
 
     <body>
-        <!-- HOME PAGE -->
-        <?php include "./php/home.php"; ?>
+        <div class="top">
+            TOP
+        </div>
 
-         <!-- FOOTER -->
-        <?php include "./php/footer.php"; ?>
-        
-        <!-- JAVASCRIPT -->
-        <script src="./js/animated.js"></script>
+        <div class="middle">
+            <?php include "./php/home.php"; ?>
+        </div>
+
+        <div class="footer">
+            <?php include "./php/footer.php"; ?>
+        </div>
     </body>
 </html>
