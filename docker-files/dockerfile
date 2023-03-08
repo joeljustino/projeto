@@ -3,5 +3,5 @@ FROM php:8.1.16-apache
 RUN apt-get update -y;
 RUN apt-get install -y nano;
 RUN apt-get install -y vim;
-#RUN cd /etc/apache2/sites-available/ && a2ensite site1.conf
-#RUN /etc/init.d/apache2 restart
+#RUN cd /etc/apache2/sites-available/ && a2ensite site1.conf -não funcionando
+#RUN /etc/init.d/apache2 restart -não funcionando
