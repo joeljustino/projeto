@@ -8,6 +8,7 @@
         <!-- HOME PAGE -->
         <?php include "./php/home.php"; ?>
 
+         <!-- FOOTER -->
         <?php include "./php/footer.php"; ?>
         
         <!-- JAVASCRIPT -->
