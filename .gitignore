@@ -8,3 +8,6 @@
 /app/db/consultorio/ib_buffer_pool
 /app/db/consultorio/ib_logfile0
 /app/db/consultorio/ibdata1
+app/consultorio/db/aria_log.00000001
+app/consultorio/db/aria_log_control
+app/consultorio/db/ddl_recovery.log
