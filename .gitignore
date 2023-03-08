@@ -1,4 +1,4 @@
-#Ignore os arquivos de banco de dados que são modificados pelo próprio sistema
+#Ignora os arquivos de banco de dados que são modificados pelo próprio sistema
 /app/db/consultorio/mysql/innodb_index_stats.ibd
 /app/db/consultorio/mysql/innodb_table_stats.ibd
 /app/db/consultorio/projeto@002ddb/tabela_teste.ibd
