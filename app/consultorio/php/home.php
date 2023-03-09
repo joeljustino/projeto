@@ -1,4 +1,4 @@
-  
+
 <div id="home-dashboard">
 
     <div class="line">
@@ -16,6 +16,7 @@
         <!-- Agenda do Dentista -->                    
         <div id="btn-agenda" class="btn-home" ><p>Agenda</p></div>     
     </div>  
+
     <div class="line">
         <!-- Marcar Consulta -->          
         <div id="btn-consulta" class="btn-home"><p>Consulta</p></div>
