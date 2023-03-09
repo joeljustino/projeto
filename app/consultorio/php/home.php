@@ -1,9 +1,5 @@
   
-      
-
 <div id="home-dashboard">
-
-
 
     <div class="line">
         <div class="logo">                        

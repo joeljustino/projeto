@@ -8,17 +8,27 @@
 	padding: 0;
 }
 
-html, body {
+html {
 	height: 100%;
+}
+
+body {
+	min-height: 100vh ;
 }
 
 body{
 	display: flex;
 	flex-direction: column;
+	/*
 	-overflow-x: hidden;
 	-overflow-y: auto;
 	-background-image: url("../images/pattern.png"),url('../images/img-3.png');
 	-background-position: center;
+	*/
+	-position: relative;
+	
+	-justify-content: center;
+	-align-items: center
 }
 
 .top {
@@ -26,15 +36,13 @@ body{
 }
 
 .middle {
-	flex: 1 0 auto;
-	-width: 1024px;
 	margin: auto;
 	text-align: center;
 	background-color:aqua;
 }
 
 .footer {
-	flex-shrink: 0;
+	-flex-shrink: 0;
 	background-color: #3e8e41;
 }
 
@@ -77,9 +85,7 @@ body{
 
 #home-dashboard{
 	background-color: brown;
-	height: 50%;
-	width: 700px;
-	margin-top: 20%;
+	-margin-top: 7%;
 }
 
 .btn-home{
@@ -94,7 +100,6 @@ body{
 	padding: 30px;
 	margin: 30px;
 	display: inline-block;
-
 }
 
 .btn-home p{
