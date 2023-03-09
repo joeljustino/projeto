@@ -6,8 +6,9 @@
 
     <body>
         <div class="top">
-            TOP
+
         </div>
+
         <div class="middle">
             <?php include "./php/home.php"; ?>
         </div>

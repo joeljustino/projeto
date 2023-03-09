@@ -1,5 +1,5 @@
 /* -----------------------------------------------------------------------
-   1. GERAL
+   1. ESTRUTURA PRINCIPAL
 ------------------------------------------------------------------------- */
 * {
 	font-family: 'Roboto', sans-serif;
@@ -12,23 +12,13 @@ html {
 	height: 100%;
 }
 
-body {
-	min-height: 100vh ;
-}
-
 body{
+	min-height: 100vh ;
 	display: flex;
 	flex-direction: column;
-	/*
-	-overflow-x: hidden;
-	-overflow-y: auto;
-	-background-image: url("../images/pattern.png"),url('../images/img-3.png');
-	-background-position: center;
-	*/
-	-position: relative;
-	
-	-justify-content: center;
-	-align-items: center
+
+	background-image: url("../images/pattern.png"),url('../images/img-3.png');
+	background-position: 48% 61%;
 }
 
 .top {
@@ -38,12 +28,12 @@ body{
 .middle {
 	margin: auto;
 	text-align: center;
-	background-color:aqua;
+	-background-color:aqua;
 }
 
 .footer {
 	-flex-shrink: 0;
-	background-color: #3e8e41;
+	-background-color: #3e8e41;
 }
 
 .footer p{
@@ -54,25 +44,10 @@ body{
 }
 
 /* -----------------------------------------------------------------------
-   2. HOME / Dashboard
+   2. HOME
 ------------------------------------------------------------------------- */
-
-.logo{
-	background-color: #d8d50d !important;
-	width: 400px;
-}
-
-.logo p{
-    color: #ffffff;
-	font-family: 'Brush Script MT';
-	font-size: 60px;
-}
-
-.logo p2{
-    color: #ffffff;
-    padding-top: 20px;
-    font-style: italic;
-	font-size: 15px;
+#home-dashboard{
+	-background-color: brown;
 }
 
 .line{
@@ -83,13 +58,26 @@ body{
 	align-items: center;
 }
 
-#home-dashboard{
-	background-color: brown;
-	-margin-top: 7%;
+.logo{
+	-background-color: #d8d50d !important;
+	width: 400px;
+}
+
+.logo p{
+    color: #ffffff;
+	font-family: 'Brush Script MT',cursive;
+	font-size: 50px;
+}
+
+.logo p2{
+    color: #ffffff;
+    padding-top: 20px;
+    font-style: italic;
+	font-size: 15px;
 }
 
 .btn-home{
-	opacity: 0.7;
+	opacity: 0.9;
 	font-size: 24px;
 	border: 1px solid #ffffff;
 	border-radius: 24px;
@@ -103,10 +91,9 @@ body{
 }
 
 .btn-home p{
-    -margin: 0;
-    -position: relative;
-    -top: 50%;
-    -left: 50%;
+    margin: 0;
+    position: relative;
+    top: 20%;
 	font-family: 'Bradley Hand', cursive;
 	font-size: 25px;
 	font-weight: 800;
@@ -141,3 +128,7 @@ body{
 #btn-outro{
 	background-color: #f436de;
 }
+
+/* -----------------------------------------------------------------------
+   3. FOOTER
+------------------------------------------------------------------------- */
