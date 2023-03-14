@@ -11,7 +11,7 @@
     <div class="line">
 
         <!-- Ficha de Anamnese -->                       
-        <div id="btn-anamnese" class="btn-home"><p>Ficha Anamnese</p></div>
+        <div id="btn-anamnese" class="btn-home" onclick="window.location='/consultorio/php/anamnese.php';"><p>Ficha Anamnese</p></div>
         
         <!-- Agenda do Dentista -->                    
         <div id="btn-agenda" class="btn-home" ><p>Agenda</p></div>     

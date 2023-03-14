@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <?php include "./header.php"; ?>
+    </head>
+
+    <body>         
+            <div class="top">
+
+            </div>
+
+            <div class="middle">
+                <?php include "./home.php"; ?>
+            </div>
+
+            <div class="footer">
+                <?php include "./footer.php"; ?>
+            </div>   
+    </body>
+</html>

@@ -2,4 +2,4 @@
         
 <title>Consultorio Odontológico</title>
 
-<link href='./css/style.css' rel='stylesheet' />
+<link href='../css/style.css' rel='stylesheet' />
