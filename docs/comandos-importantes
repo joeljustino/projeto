@@ -17,7 +17,7 @@ BRANCHS
 
 PROCEDIMENTO QUANDO PROGRAMAR:
 
-Fazer os códigos que tenho que fazer depois: VERIFICAR SE É ISSSO MESMO
+Fazer os códigos que tenho que fazer depois: 
 
     Obs.: Estando com a develop ok
 
@@ -25,7 +25,7 @@ Fazer os códigos que tenho que fazer depois: VERIFICAR SE É ISSSO MESMO
 
     git add arquivo
     git commit -m “feat: adicionando funcionalidade xyz”
-     git push --set-upstream origin feature/name-feature
+    git push --set-upstream origin feature/name-feature
 
     git checkout develop
     git merge name-feature
@@ -35,7 +35,6 @@ Fazer os códigos que tenho que fazer depois: VERIFICAR SE É ISSSO MESMO
 
 Para baixar arquivos sem apagar o meu primeiro faço uma cópia no dedo dos meus arquivos, vejo as diferenças utilizando o fetch e depois baixo e mergeo utilizando o pull;
 Implementar o .gitignore nos arquivos de banco de dados que estão dando pau
-Ver como se faz uma api 
 
 SITES IMPORTANTES:
 
